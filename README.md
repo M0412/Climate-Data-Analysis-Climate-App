@@ -33,7 +33,7 @@ In this section, i designed a Flask API based on the queries that you just devel
 - Return a JSON list of stations from the dataset.
 - Query the dates and temperature observations of the most-active station for the previous year of data, and return a JSON list of temperature observations for the previous year.
 - Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
- 1- For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
- 2- For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
+    - For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
+    - For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
 
 
