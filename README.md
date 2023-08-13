@@ -14,6 +14,9 @@ In this section, i used Python and SQLAlchemy to do a basic climate analysis and
 - Load the query results into a Pandas DataFrame. Explicitly set the column names.
 - Sort the DataFrame values by "date".
 - Plot the results by using the DataFrame plot method, as the following image shows:
+
+![Alt text](SurfsUp/Resources/plot.png)
+
 - Use Pandas to print the summary statistics for the precipitation data. 
  
  #### Station Analysis:
@@ -23,7 +26,9 @@ In this section, i completed the following steps:
 - Design a query to calculate the total number of stations in the dataset. 
 - Design a query to find the most-active stations (that is, the stations that have the most rows). 
 - Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query.
-- Design a query to get the previous 12 months of temperature observation (TOBS) data.
+- Design a query to get the previous 12 months of temperature observation (TOBS) data, as the following image shows:
+
+![Alt text](SurfsUp/Resources/hist.png)
 
 ### Part 2: Design a Climate App
 
