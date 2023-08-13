@@ -6,7 +6,7 @@ This project consists of two parts:
  
  #### Precipitation Analysis:
  
-In this section, i used Python and SQLAlchemy to do a basic climate analysis and data exploration of my climate database. Specifically, i used se SQLAlchemy ORM queries, Pandas, and Matplotlib. To do so, i completed the following steps:
+In this section, i used Python and SQLAlchemy to do a basic climate analysis and data exploration of my climate database. Specifically, i used SQLAlchemy ORM queries, Pandas, and Matplotlib. To do so, i completed the following steps:
  
 - Find the most recent date in the dataset.
 - Use that date to get the previous 12 months of precipitation data by querying the previous 12 months of data.
@@ -32,7 +32,7 @@ In this section, i completed the following steps:
 
 ### Part 2: Design a Climate App
 
-In this section, i designed a Flask API based on the queries that you just developed. To do so, i used Flask to create my routes as follows:
+In this section, i designed a Flask API based on the queries that were just developed. To do so, i used Flask to create my routes as follows:
 - Start at the homepage, and list all the available routes.
 - Convert the query results from my precipitation analysis to a dictionary using date as the key and prcp as the value, and return the JSON representation of my dictionary.
 - Return a JSON list of stations from the dataset.
