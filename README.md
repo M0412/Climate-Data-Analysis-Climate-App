@@ -1,4 +1,4 @@
-# sqlalchemy-challenge
+# Climate-Data-Analysis-Climate-App
 
 This project consists of two parts:
 
